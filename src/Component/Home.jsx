@@ -1,4 +1,4 @@
-import MyImage from "../Image/Myimage.png";
+import Myimage from "../Image/Myimage.png";
 import { RiShareForwardFill } from "react-icons/ri";
 
 function Home(){
@@ -39,7 +39,7 @@ function Home(){
                     <div className="border rounded-xl gap-3 border-b-neutral-600 mt-6 md:mt-0 ml-0 md:ml-2 bg-black w-full md:w-auto hover:shadow-[0_0_20px_rgba(255,255,255,0.8)]  hover:scale-103 transition-all duration-500">
                         <div className="w-1116px h-410px p-2">
                             {/* image */}
-                            <img src={MyImage} alt="My Image" className="w-full h-auto rounded-3xl" />
+                            <img src={Myimage} alt="My Image" className="w-full h-auto rounded-3xl" />
                             <div className="flex items-center">
                             <p className="p-3 ">TUF + Demo - One Stop Prep Platform!</p>
                             <button className=" bg-black text-white border border-white rounded-full w-6 h-6 flex justify-center items-center  hover:bg-gray-800 md:ml-50 ml-5">
