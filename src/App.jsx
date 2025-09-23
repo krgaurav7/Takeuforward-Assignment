@@ -4,7 +4,6 @@ import LoginForm from "./Component/Login";
 import Home from "./Component/Home"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
