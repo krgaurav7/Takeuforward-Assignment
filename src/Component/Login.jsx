@@ -47,7 +47,7 @@ function LoginForm() {
              rounded-full border border-white/30
              bg-gradient-to-b from-[oklch(41.4%_0.112_45.904)] to-[oklch(30%_0.1_45.904)]
              bg-white/10 backdrop-blur-md
-             transition duration-300 shadow-md hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]"
+             transition duration-300 shadow-md hover:shadow-[0_0_20px_rgba(255,255,255,0.5)] cursor-pointer"
             >
               Submit
             </button>

@@ -10,7 +10,7 @@ function Home(){
             <div className="flex flex-col md:flex-row justify-center items-center p-4 md:p-30  w-full min-h-screen  bg-white/20 backdrop-blur-4xl">
                 <div className=" w-full md:w-420px h-auto md:h-339px mb-6 md:mb-0">
                         <div className="flex items-center ">
-                            <p className="bg-[oklch(28.6%_0.066_53.813)] p-1.5 border rounded-2xl text-center border-gray-600 w-204px h-31px hover:shadow-[0_0_20px_rgba(255,255,255,0.3)]"> 
+                            <p className="bg-[oklch(28.6%_0.066_53.813)] p-1.5 border rounded-2xl text-center border-gray-600 w-204px h-31px hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:scale-105 transition-all duration-1000 cursor-pointer"> 
                                 Crafted by Top Engineers 
                             </p>
                         </div>
@@ -28,16 +28,16 @@ function Home(){
                             </p>
                         </div>
                         <div className="flex flex-col sm:flex-row gap-10 pt-5 justify-center md:justify-start w-full md:w-310px h-auto">
-                            <button class="bg-black text-gray-400 border border-gray rounded-xl py-2 px-6 transition h-19px hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]  hover:scale-105">
+                            <button class="bg-black text-gray-400 border border-gray rounded-xl py-2 px-6 transition h-19px hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]  hover:scale-105 cursor-pointer">
                                 Explore Offering
                             </button>
-                            <button class="bg-white/20 backdrop-blur-3xl text-gray border border-gray-400 rounded-xl py-2 px-6 transition w-65px h-19px hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]  hover:scale-105">
+                            <button class="bg-white/20 backdrop-blur-3xl text-gray border border-gray-400 rounded-xl py-2 px-6 transition w-65px h-19px hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]  hover:scale-105 cursor-pointer">
                                 Buy Now
                             </button>
                         </div>
                 </div>
                     <div className="border rounded-xl gap-3 border-b-neutral-600 mt-6 md:mt-0 ml-0 md:ml-2 bg-black w-full md:w-auto hover:shadow-[0_0_20px_rgba(255,255,255,0.8)]  hover:scale-103 transition-all duration-500">
-                        <div className="w-1116px h-410px p-2">
+                        <div className="w-1116px h-410px p-2 cursor-pointer">
                             {/* image */}
                             <img src={Myimage} alt="My Image" className="w-full h-auto rounded-3xl" />
                             <div className="flex items-center">
