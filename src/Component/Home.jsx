@@ -1,4 +1,4 @@
-import Myimage from "../assets/Myimage.png";
+import Myimage from "../assets/MyImage.png";
 import { RiShareForwardFill } from "react-icons/ri";
 
 function Home(){
@@ -53,5 +53,6 @@ function Home(){
         </>
     )
 }
+
 
 export default Home;
