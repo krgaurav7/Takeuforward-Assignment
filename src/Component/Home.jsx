@@ -1,4 +1,4 @@
-import Myimage from "../Image/Myimage.png";
+import Myimage from "../assets/Myimage.png";
 import { RiShareForwardFill } from "react-icons/ri";
 
 function Home(){
