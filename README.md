@@ -19,3 +19,4 @@ Install React Icons (for icons used in the project):
 '''
 npm install react-icons
 '''
+X post : https://x.com/kr_gaurav7/status/1971092310801908181 (You can check)
